@@ -1,5 +1,6 @@
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
 @prefix v1: <https://queerlit.dh.gu.se/qlit/v1/>.
 
 v1:
@@ -7,6 +8,7 @@ v1:
     dct:description "Queerlit test vocabulary"@en;
     dct:creator "Julia"@en ;
     dct:title "QLIT"@en;
+    vann:preferredNamespaceUri v1:;
     skos:hasTopConcept v1:lm49rl65, v1:qd17qs25 .
 v1:jx05kp14
     a skos:Concept;
@@ -49,4 +51,5 @@ v1:lm49rl65
     skos:prefLabel "Relation (htbqi)"@sv;
     skos:closeMatch <https://homosaurus.org/v3/homoit0001237> ;
     skos:scopeNote "Används för skildringar av nära relationer mellan hbtqi-personer. Kan omfatta aspekter som släktskap, vänskap, sex eller kärlek, men då någon av dessa har en övervägande betydelse används termerna \"Familjemedlemmar\", \"Vänskap\", \"Sexuella relationer (hbtqi)\" eller \"Kärlek (hbtqi)\"."@sv ;
-    skos:topConceptOf v1: .
+    skos:topConceptOf v1: ;
+    vann:preferredNamespaceUri v1:.
