@@ -20,7 +20,9 @@ v1:cb49gf75
     skos:inScheme v1:;
     skos:narrower v1:px69nf52;
     skos:prefLabel "Love"@en;
-    skos:prefLabel "Kärlek"@sv.
+    skos:prefLabel "Kärlek"@sv;
+    skos:closeMatch <https://homosaurus.org/v3/homoit0000894>;
+    skos:scopeNote "Används för skildringar av känslospektrum som präglas av ömhet, tillgivenhet, samhörighet och njutning och som involverar hbtqi-personer som objekt och/eller subjekt."@sv .
 v1:qd17qs25
     a skos:Concept;
     skos:narrower v1:cb49gf75, v1:cb49gf75;
@@ -38,10 +40,13 @@ v1:px69nf52
     skos:broader v1:cb49gf75;
     skos:inScheme v1:;
     skos:prefLabel "Love between Women"@en;
-    skos:prefLabel "Kärlek mellan kvinnor"@sv.
+    skos:prefLabel "Kärlek mellan kvinnor"@sv;
+    skos:scopeNote "Används för skildringar av nära relationer mellan kvinnor, där deras sexuella läggning inte framgår. Kan omfatta aspekter som släktskap, vänskap, sex eller kärlek."@sv .
 v1:lm49rl65
     a skos:Concept;
-    skos:narrower v1:lm49rl65;
-    skos:prefLabel "Relation"@en;
-    skos:prefLabel "Relation"@sv;
+    skos:narrower v1:jx05kp14;
+    skos:prefLabel "Relation (htbqi)"@en;
+    skos:prefLabel "Relation (htbqi)"@sv;
+    skos:closeMatch <https://homosaurus.org/v3/homoit0001237> ;
+    skos:scopeNote "Används för skildringar av nära relationer mellan hbtqi-personer. Kan omfatta aspekter som släktskap, vänskap, sex eller kärlek, men då någon av dessa har en övervägande betydelse används termerna \"Familjemedlemmar\", \"Vänskap\", \"Sexuella relationer (hbtqi)\" eller \"Kärlek (hbtqi)\"."@sv ;
     skos:topConceptOf v1: .
