@@ -5,6 +5,11 @@
     "en": "Love between Women",
     "sv": "Kärlek mellan kvinnor"
   },
+  "scopeNote": {
+    "sv": [
+      "Används för skildringar av nära relationer mellan kvinnor, där deras sexuella läggning inte framgår. Kan omfatta aspekter som släktskap, vänskap, sex eller kärlek."
+    ]
+  },
   "broader": {
     "id": "https://queerlit.dh.gu.se/qlit/v1/cb49gf75",
     "prefLabel": {

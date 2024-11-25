@@ -5,6 +5,11 @@
     "en": "Love",
     "sv": "Kärlek"
   },
+  "scopeNote": {
+    "sv": [
+      "Används för skildringar av känslospektrum som präglas av ömhet, tillgivenhet, samhörighet och njutning och som involverar hbtqi-personer som objekt och/eller subjekt."
+    ]
+  },
   "narrower": [
     {
       "id": "https://queerlit.dh.gu.se/qlit/v1/px69nf52",
@@ -21,6 +26,11 @@
       "sv": "Känsla"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://homosaurus.org/v3/homoit0000894"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://queerlit.dh.gu.se/qlit/v1/",

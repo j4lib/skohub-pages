@@ -2,17 +2,15 @@
   "id": "https://queerlit.dh.gu.se/qlit/v1/lm49rl65",
   "type": "Concept",
   "prefLabel": {
-    "en": "Relation",
-    "sv": "Relation"
+    "en": "Relation (htbqi)",
+    "sv": "Relation (htbqi)"
+  },
+  "scopeNote": {
+    "sv": [
+      "Används för skildringar av nära relationer mellan hbtqi-personer. Kan omfatta aspekter som släktskap, vänskap, sex eller kärlek, men då någon av dessa har en övervägande betydelse används termerna \"Familjemedlemmar\", \"Vänskap\", \"Sexuella relationer (hbtqi)\" eller \"Kärlek (hbtqi)\"."
+    ]
   },
   "narrower": [
-    {
-      "id": "https://queerlit.dh.gu.se/qlit/v1/lm49rl65",
-      "prefLabel": {
-        "en": "Relation",
-        "sv": "Relation"
-      }
-    },
     {
       "id": "https://queerlit.dh.gu.se/qlit/v1/jx05kp14",
       "prefLabel": {
@@ -21,13 +19,11 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://queerlit.dh.gu.se/qlit/v1/lm49rl65",
-    "prefLabel": {
-      "en": "Relation",
-      "sv": "Relation"
+  "closeMatch": [
+    {
+      "id": "https://homosaurus.org/v3/homoit0001237"
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://queerlit.dh.gu.se/qlit/v1/",
