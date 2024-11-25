@@ -1,0 +1,47 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix v1: <https://queerlit.dh.gu.se/qlit/v1/>.
+
+v1:
+    a skos:ConceptScheme;
+    dct:description "Queerlit test vocabulary"@en;
+    dct:creator "Julia"@en ;
+    dct:title "QLIT"@en;
+    skos:hasTopConcept v1:lm49rl65, v1:qd17qs25 .
+v1:jx05kp14
+    a skos:Concept;
+    skos:broader v1:lm49rl65;
+    skos:inScheme v1:;
+    skos:prefLabel "Friendship"@en;
+    skos:prefLabel "Vänskap"@sv.
+v1:cb49gf75
+    a skos:Concept;
+    skos:broader v1:qd17qs25;
+    skos:inScheme v1:;
+    skos:narrower v1:px69nf52;
+    skos:prefLabel "Love"@en;
+    skos:prefLabel "Kärlek"@sv.
+v1:qd17qs25
+    a skos:Concept;
+    skos:narrower v1:cb49gf75, v1:cb49gf75;
+    skos:prefLabel "Feeling"@en;
+    skos:prefLabel "Känsla"@sv;
+    skos:topConceptOf v1: .
+v1:yi63rn93
+    a skos:Concept;
+    skos:broader v1:qd17qs25;
+    skos:inScheme v1:;
+    skos:prefLabel "Jealousy"@en;
+    skos:prefLabel "Svartsjuka"@sv.
+v1:px69nf52
+    a skos:Concept;
+    skos:broader v1:cb49gf75;
+    skos:inScheme v1:;
+    skos:prefLabel "Love between Women"@en;
+    skos:prefLabel "Kärlek mellan kvinnor"@sv.
+v1:lm49rl65
+    a skos:Concept;
+    skos:narrower v1:lm49rl65;
+    skos:prefLabel "Relation"@en;
+    skos:prefLabel "Relation"@sv;
+    skos:topConceptOf v1: .
